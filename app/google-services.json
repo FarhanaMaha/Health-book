@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "949937241216",
+    "firebase_url": "https://newmaha-daef3.firebaseio.com",
+    "project_id": "newmaha-daef3",
+    "storage_bucket": "newmaha-daef3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949937241216:android:004ddc7f487c4ae4",
+        "android_client_info": {
+          "package_name": "com.smartalarm.new_maha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949937241216-785kaqqinn9s5mbhrsb5d6buhb0qv4hi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartalarm.new_maha",
+            "certificate_hash": "bcbcd93c99cfc6d8addcdac34bc7248103ccd325"
+          }
+        },
+        {
+          "client_id": "949937241216-cl5r9604kse5b6ul5aol6h7ivq9f444p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCotdQwE0Tw2B3qihJU3t23wZ3bTD7sj4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949937241216-cl5r9604kse5b6ul5aol6h7ivq9f444p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

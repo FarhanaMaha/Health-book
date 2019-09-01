@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartalarm.new_maha">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login_P">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".Notification_Service"
+            android:enabled="true" />
+
+        <receiver android:name=".Notification_Receiver" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Add_Food"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Diet_Page"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Exercise"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Exercise_Second"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Forget_Password"
+            android:parentActivityName=".Login_P"/>
+        <activity android:name=".Gif_Show"
+            android:parentActivityName=".User_Profile"/>
+        <activity android:name=".Hepl"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Registation_Page"
+            android:parentActivityName=".Login_P"/>
+        <activity android:name=".Search_Food"
+            android:parentActivityName=".Add_Food"/>
+        <activity android:name=".Search_Dinner"
+            android:parentActivityName=".Add_Food"/>
+        <activity android:name=".Search_Lunch"
+            android:parentActivityName=".Add_Food"/>
+        <activity android:name=".User_Profile"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Total_Calories" />
+        <activity android:name=".Search_Snacks"
+            android:parentActivityName=".Add_Food">
+
+        </activity>
+    </application>
+
+</manifest>

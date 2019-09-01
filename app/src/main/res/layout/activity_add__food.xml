@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD1CECE"
+    tools:context="com.smartalarm.new_maha.Add_Food">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/add_reminder_layout_top"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:layout_height="100dp">
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DAILY FOOD"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="15dp"
+            android:id="@+id/alarmText"
+            android:layout_marginLeft="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="140dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_library_add_black_24dp"/>
+                <TextView
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Breakfast"
+                    android:textSize="17dp"
+                    android:textColor="#FF3A4148"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:id="@+id/add_edt1"
+                    android:hint="Calorie:00"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:textColor="#FF3A4148"
+                    android:textColorHint="#FF3A4148"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_library_add_black_24dp"/>
+
+                <TextView
+
+                    android:id="@+id/btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lunch"
+                    android:textSize="17dp"
+                    android:textColor="#FF3A4148"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/add_edt2"
+                    android:hint="Calorie:00"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:textColor="#FF3A4148"
+                    android:textColorHint="#FF3A4148"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_library_add_black_24dp"/>
+                <TextView
+
+                    android:id="@+id/btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dinner"
+                    android:textSize="17dp"
+                    android:textColor="#FF3A4148"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/add_edt3"
+                    android:hint="Calorie:00"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:textColor="#FF3A4148"
+                    android:textColorHint="#FF3A4148"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_library_add_black_24dp"/>
+
+
+                <TextView
+
+                    android:id="@+id/btn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="Snacks"
+                    android:textColor="#FF3A4148"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:id="@+id/add_edt4"
+                    android:hint="Calorie:00"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:textColor="#FF3A4148"
+                    android:textColorHint="#FF3A4148"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_copyright_black_24dp"
+                android:layout_marginTop="-3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily Total Calorie :"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FF3A4148"
+                />
+            <TextView
+                android:id="@+id/daily_totalcaloreis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FF3A4148"
+                android:hint="00 calories"
+                android:textColor="#FF3A4148"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+

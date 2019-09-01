@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFD1CECE"
+    tools:context="com.smartalarm.new_maha.Diet_Page">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/add_reminder_layout_top"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:layout_height="120dp">
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diet"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/ch"
+            android:layout_marginLeft="72dp"
+            android:text="Please Choose your goals.Good luck !"
+            android:textSize="15dp"
+            android:lines="4"
+            android:minLines="4"
+            android:gravity="top|left"
+            android:textColor="@android:color/white"
+            android:scrollHorizontally="false"
+            android:textColorHint="@color/primary_text_disabled_material_dark"
+            android:inputType="textCapWords|textMultiLine"
+            android:layout_marginRight="16dp"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/gain_weight"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gain Weight"
+                android:textSize="17dp"
+
+                android:textStyle="bold"/>
+
+
+            <RadioButton
+                android:id="@+id/maintain_weight"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maintain Weight"
+                android:textSize="17dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"/>
+
+
+            <RadioButton
+                android:id="@+id/loss_weight"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loss Weight"
+                android:textSize="17dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"/>
+
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
